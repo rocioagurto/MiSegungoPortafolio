@@ -1,0 +1,477 @@
+body {
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* NAVBAR */
+header {
+    margin-top: 30px;
+}
+
+header .nav {
+    min-height: 80px;
+    overflow: hidden;
+    background: #fff;
+}
+
+/* Logo span parrafo navbar */
+header .logo h2,
+header .logo span {
+    font-size: 19px;
+    display: inline-block;
+    margin: 0;
+}
+
+header .logo p {
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+}
+
+/* Logo (nombre) navbar */
+header .logo h2 {
+    font-weight: 800;
+    text-transform: uppercase;
+    /*para que el nombre logo quede en mayuscula*/
+}
+
+header .logo .icono {
+    /*icono de punto*/
+    color: #bfbfbf;
+}
+
+header .logo p {
+    color: #777777;
+}
+
+/* MENU */
+header .menu {
+    padding: 0;
+}
+
+header .menu a {
+    display: block;
+    padding: 0 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* Poner los textos del menu en negrita */
+header .menu a div span {
+    font-weight: 600;
+}
+
+
+header .menu .c-1 {
+    background: rgb(170, 219, 213);
+}
+
+header .menu .c-2 {
+
+    background: rgb(138, 190, 184);
+}
+
+header .menu .c-3 {
+    background: rgb(97, 141, 136);
+}
+
+/* hover */
+header .menu .c-1:hover {
+    background: rgb(149, 192, 187);
+}
+
+header .menu .c-2:hover {
+    background: rgb(115, 158, 153);
+}
+
+header .menu .c-3:hover {
+    background: rgb(82, 119, 115);
+}
+
+/* SLIDER */
+.slider {
+    margin-bottom: 40px;
+}
+
+.slider .col {
+    padding: 0%;
+}
+
+.slider img {
+    width: 100%;
+}
+
+/* ACERCA DE... */
+.acerca-de {
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.acerca-de .foto {
+    text-align: center;
+}
+
+.acerca-de .foto img {
+    margin-bottom: 30px;
+}
+
+.acerca-de .foto .nombre {
+    color: #545454;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.acerca-de .info .titulo {
+    color: rgb(97, 141, 136);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.acerca-de .info .saludo {
+    color: rgb(63, 112, 106);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+
+.acerca-de .info .resumen {
+    letter-spacing: 1.5px;
+    font-size: 14px;
+    color: #424242;
+}
+
+.acerca-de .info .label {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(97, 141, 136);
+}
+
+.acerca-de .info .progress {
+    background: rgb(97, 141, 136);
+    border-radius: 0;
+    height: 20px;
+}
+
+.acerca-de .info .progress-bar {
+    background: rgb(170, 219, 213);
+    line-height: 20px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+
+/* PORTAFOLIO */
+.portafolio {
+    background: #fff;
+    border-top: 5px solid rgb(170, 219, 213);
+    padding: 0 20px;
+    border-bottom: 5px solid rgb(170, 219, 213);
+}
+
+.portafolio .titulo {
+    padding: 40px 0;
+    text-align: center;
+    color: rgb(97, 141, 136);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.portafolio .galeria .contenedor-imagen {
+    margin-bottom: 40px;
+    max-height: 180px;
+    overflow: hidden;
+}
+
+.portafolio .galeria .contenedor-imagen a {
+    background: rgb(170, 219, 213);
+    display: inline-block;
+}
+
+.portafolio .galeria .contenedor-imagen:hover img {
+    opacity: .4;
+}
+
+.portafolio .modal-dialog {
+    margin: 0px auto;
+    height: 100%;
+    max-width: 1000px;
+}
+
+.portafolio .modal-content {
+    width: auto;
+}
+
+/* CONTACTO */
+.contacto {
+    padding: 40px 0;
+    border-top: 1px solid #cbcbcb;
+    margin-top: 30px;
+    border-bottom: 1px solid #cbcbcb;
+    margin-bottom: 30px;
+}
+
+.contacto .titulo {
+    color: rgb(97, 141, 136);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contacto .form-group {
+    margin-bottom: 0;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+    padding: 15px;
+    border: none;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+.formulario textarea {
+    height: 120px;
+    min-height: 120px;
+    max-height: 250px;
+}
+
+.formulario .btn {
+    background: rgb(138, 190, 184);
+    color: #fff;
+    border: none;
+    padding: 7px 30px;
+    font-family: 'Open Sans', sans-serif;
+    width: auto;
+    cursor: pointer;
+}
+
+.formulario .btn:hover {
+    background: rgb(170, 219, 213);
+}
+
+/* FOOTER */
+.redes-sociales {
+    padding: 40px 0;
+    margin-bottom: 40px;
+}
+
+.redes-sociales .icono {
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    line-height: 100px;
+    color: #fff;
+    text-align: center;
+    background: #cbcbcb;
+    display: inline-block;
+    margin: 0px 20px;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: all .3s ease;
+}
+
+.redes-sociales .twitter {
+    background: rgb(170, 219, 213);
+}
+
+.redes-sociales .instagram {
+    background: rgb(138, 190, 184);
+}
+
+.redes-sociales .facebook {
+    background: rgb(97, 141, 136);
+}
+
+.redes-sociales .twitter:hover {
+    background: rgb(189, 226, 222);
+}
+
+.redes-sociales .instagram:hover {
+    background: rgb(117, 160, 155);
+}
+
+.redes-sociales .facebook:hover {
+    background: rgb(76, 110, 106);
+}
+
+
+
+
+
+/* MEDIAQUERIES */
+/* Dispositivo xl */
+@media screen and (min-width:992px) {
+    .acerca-de .info .saludo {
+        font-size: 30px;
+    }
+}
+
+
+
+
+/* Dispositivo lg */
+@media screen and (max-width:991px) {
+    .logo {
+        height: 76px;
+    }
+
+    .menu {
+        min-height: 76px;
+    }
+
+    .menu a {
+        width: 100%;
+    }
+
+    .menu a div {
+        width: 100%;
+    }
+
+    .portafolio .galeria .contenedor-imagen:nth-child(1) {
+        order: 1;
+    }
+
+    .portafolio .galeria .contenedor-imagen:nth-child(2) {
+        order: 3;
+    }
+
+    .portafolio .galeria .contenedor-imagen:nth-child(3) {
+        order: 6;
+    }
+
+    .portafolio .galeria .contenedor-imagen:nth-child(4) {
+        order: 2;
+    }
+
+    .portafolio .galeria .contenedor-imagen:nth-child(5) {
+        order: 7;
+    }
+
+    .portafolio .galeria .contenedor-imagen:nth-child(6) {
+        order: 4;
+    }
+
+    .portafolio .galeria .contenedor-imagen:nth-child(7) {
+        order: 5;
+    }
+
+    .modal .modal-dialog {
+        width: 90%;
+    }
+
+    .modal .modal-dialog .modal-content img {
+        width: 100%;
+    }
+
+    .acerca-de .info .titulo,
+    .acerca-de .info .saludo {
+        text-align: center;
+    }
+
+    .acerca-de .info .saludo {
+        font-size: 30px;
+    }
+}
+
+/* Dispositivo md */
+@media screen and (max-width:767px) {
+    .acerca-de .info .titulo {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .acerca-de .info .saludo {
+        font-size: 30px;
+    }
+
+    .acerca-de img {
+        width: 40%;
+    }
+
+    .acerca-de .info .resumen {
+        font-size: 13px;
+    }
+
+    .acerca-de .info .saludo {
+        font-size: 30px;
+    }
+
+    .redes-sociales .icono {
+        width: 80px;
+        height: 80px;
+        font-size: 40px;
+        line-height: 80px;
+    }
+}
+
+/* Dispositivo sm */
+@media screen and (max-width:575px) {
+    header {
+        margin-top: 0;
+    }
+
+    header .logo h2,
+    header .logo p {
+        font-size: 14px;
+    }
+
+    header .menu span {
+        font-size: 14px;
+    }
+
+    .acerca-de .info .resumen {
+        font-size: 12px;
+    }
+
+    .acerca-de .info .saludo {
+        font-size: 28px;
+    }
+
+    .redes-sociales .icono {
+        width: 70px;
+        height: 70px;
+        font-size: 38px;
+        line-height: 70px;
+    }
+}
+
+
+
+/* Dispositivo xs */
+@media screen and (max-width:395px) {
+    header {
+        margin-top: 0;
+    }
+
+    header .logo h2,
+    header .logo p {
+        font-size: 11.5px;
+    }
+
+    header .menu span {
+        font-size: 12px;
+    }
+
+    .redes-sociales .icono {
+        width: 50px;
+        height: 50px;
+        font-size: 25px;
+        line-height: 50px;
+    }
+
+    .acerca-de .info .saludo {
+        font-size: 23px;
+    }
+
+}
